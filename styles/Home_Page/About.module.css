@@ -1,0 +1,40 @@
+.about {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about_contant {
+  width: 50vw;
+}
+
+
+
+.contant {
+  font-family: "Teko";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #221f3b;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-image:   linear-gradient(to right, 
+  #221F3B    20%, 
+  #6F4A8E  20%, 
+  #6F4A8E 100%
+);
+width: 35vw;
+padding: 10px 0px;
+  display: inline;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-weight: 400;
+font-size: 24px;
+letter-spacing: 0.1em;
+display: flex;
+justify-content: space-around;
+margin: auto;
+}
+
+

@@ -1,0 +1,18 @@
+.hr{
+    margin-bottom: 30px 0px;
+    margin-left: 80px;
+  }
+
+  .heading {
+    font-family: "Teko";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    color: #000000;
+  }
+
+  .heading_div{
+      display: flex;
+      justify-content: center;
+  }

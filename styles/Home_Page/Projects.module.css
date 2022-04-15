@@ -1,0 +1,12 @@
+.projects_section{
+    margin-top: 70px;
+    background-color: 	#F0F0F0;
+
+}
+
+.card_group{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}

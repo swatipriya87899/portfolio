@@ -1,0 +1,15 @@
+.site_button{
+padding: 4px 0px;
+width: 60%;
+  display: inline;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-weight: 400;
+font-size: 24px;
+letter-spacing: 0.1em;
+display: flex;
+justify-content: space-around;
+margin: auto;
+background-color:#6F4A8E ;
+margin-top: 15px;
+}
