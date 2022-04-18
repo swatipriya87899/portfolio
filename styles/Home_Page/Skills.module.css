@@ -1,0 +1,14 @@
+.skills{
+    margin: 50px;
+}
+.skill_heading{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.progress_tab{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 130px; */
+    flex-wrap: wrap;
+}

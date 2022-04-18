@@ -1,9 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import About from '../src/components/About'
+import Contact from '../src/components/Contact'
 import Header from '../src/components/header'
 import Projects from '../src/components/Projects'
-import styles from '../styles/Home.module.css'
+import Skills from '../src/components/Skills'
+import styles from '../styles/Home.module.css';
+
 
 export default function Home() {
   return (
@@ -19,7 +22,9 @@ export default function Home() {
         <div className={styles.content}>
         <About></About>
         <Projects></Projects>
+        <Skills></Skills>
         </div>
+        <Contact></Contact>
       </div>
     </div>
   )

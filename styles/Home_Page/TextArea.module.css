@@ -1,0 +1,15 @@
+.textarea{
+    border: 1px solid #FFFFFF;
+    background-color: #221F3B;
+    width: 250px;
+    padding-left: 15px;
+    outline: none;
+    color:#FFFFFF;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.textarea::placeholder{
+    color: #FFFFFF;
+    font-size: 12px;
+}

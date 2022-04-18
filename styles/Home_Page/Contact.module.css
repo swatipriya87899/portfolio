@@ -1,0 +1,33 @@
+.contact{
+    background-color: #221F3B;
+    padding: 20px 0px;
+}
+
+.heading{
+    padding-top: 20px;
+}
+
+.contact_form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profession_contact{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.social_media_style{
+    border: 1px solid   #FFFFFF;
+    padding: 10px;
+    border-radius: 20%;
+    display: inline;
+    margin: 10px;
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}

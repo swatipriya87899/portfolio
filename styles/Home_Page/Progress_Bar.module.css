@@ -1,0 +1,27 @@
+.progress_bar{
+    height: 8px;
+    width: 35%;
+    background-color: #d8d8d8;
+	border-radius: 20px;
+    position: absolute;
+}
+
+.progress{
+    position: relative;
+    height: 8px;
+    width: 70%;
+    background: linear-gradient(to left, #d270f2, #727bff);
+	box-shadow: 0 3px 3px -5px #70adf2, 0 2px 5px #a270f2;
+	border-radius: 20px;
+    animation: progress-width 2s 1 linear;
+}
+
+@keyframes progress-width {
+    0%   {width: 0%;}
+    100% {width: 100%;}
+  }
+
+.technical_skill{
+    font-size: 20px;
+    font-weight: 500;
+}
