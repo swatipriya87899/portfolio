@@ -1,6 +1,7 @@
 .about {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .about_contant {
@@ -38,3 +39,11 @@ margin: auto;
 }
 
 
+@media screen and (max-width: 600px) {
+  .about_contant {
+    width: 80vw;
+  }
+  .button{
+    width: 80vw;
+  }
+}

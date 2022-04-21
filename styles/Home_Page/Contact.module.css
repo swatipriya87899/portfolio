@@ -11,6 +11,7 @@
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .profession_contact{
@@ -23,11 +24,26 @@
     padding: 10px;
     border-radius: 20%;
     display: inline;
-    margin: 10px;
+    margin: auto;
 }
 
 .social_media{
     display: flex;
     justify-content: center;
     margin-top: 60px;
+}
+
+.message{
+  min-width: 300px;
+}
+
+.profession_contact{
+  min-width: 300px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .message{
+    margin: auto;
+  }
 }

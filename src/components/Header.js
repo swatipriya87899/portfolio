@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "./../../styles/Home_Page/Header.module.css";
 import Navbar from "./Navbar";
+import Typewriter from 'typewriter-effect';
+
 
 const Header = () => {
   return (
@@ -11,9 +13,12 @@ const Header = () => {
       </div>
       <Navbar></Navbar>
       <div className={styles.content}>
-        <div className={styles.greetings}>Hello <div className={styles.waving_hand}>👋</div>, I am</div>
+      <div className={styles.waving_hand} style={{transform: "rotate(160deg)"}}>👋</div>
+        <div className={styles.greetings}>Hello</div><div  className={styles.greetings}>, I am</div>
         <div className={styles.name}>Swati Priya</div>
-        <div className={styles.role}>Frontend Developer</div>
+        <div className={styles.role}>
+        <Typewriter options={{strings: ['Frontend Developer', 'Competative Programmer'], autoStart: true, loop: true,}}/>
+        </div>
       </div>
     </div>
   );

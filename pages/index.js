@@ -22,8 +22,8 @@ export default function Home() {
         <Header></Header>
         <div className={styles.content}>
         <About></About>
-        <Projects></Projects>
-        <Skills></Skills>
+       <Projects></Projects>
+         {/* <Skills></Skills> */}
         </div>
         <Contact></Contact>
       </div>

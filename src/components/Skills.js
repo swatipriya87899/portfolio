@@ -54,7 +54,7 @@ const Skills = () => {
       </div>
       <div className={styles.progress_tab}>
             {
-              skills.map((skills)=> (<Progress_Bar skill={skills.skill} progress_width={skills.progress}></Progress_Bar>))
+              skills.map((skills)=> (<Progress_Bar skill={skills.skill} progress_width={skills.progress} key={skills.skill}></Progress_Bar>))
             }
       </div>
     </div>

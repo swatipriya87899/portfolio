@@ -7,6 +7,7 @@ import TextArea from "./TextArea";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import emailjs from 'emailjs-com';
 
 
@@ -24,10 +25,10 @@ const Contact = () => {
   return (
     <div className={styles.contact}>
       <div className={styles.heading}>
-        <Heading heading="Contact" styles={{ color: "White" }}></Heading>
+        <Heading heading="Contact" styling={{color:'#FFF'}}></Heading>
       </div>
       <div className={styles.contact_form}>
-        <div>
+        <div className={styles.message}>
           <form onSubmit={sendEmail}>
           <Input_Box type="text" placeholder="Your Name" name="name"></Input_Box>
           <Input_Box type="email" placeholder="Your Email" name="user_email"></Input_Box>
@@ -36,14 +37,15 @@ const Contact = () => {
           </form>
         </div>
         <div className={styles.profession_contact}>
-          <div className={styles.number}>+91-8789933710</div>
-          <div>swatipriya87899@gmail.com</div>
           <div className={styles.social_media}>
             <div className={styles.social_media_style}>
             <FontAwesomeIcon icon={faLinkedinIn} width="25px"></FontAwesomeIcon>
             </div>
             <div className={styles.social_media_style}>
             <FontAwesomeIcon icon={faGithub} width="25px"></FontAwesomeIcon>
+            </div>
+            <div className={styles.social_media_style}>
+            <FontAwesomeIcon icon={faEnvelope} width="25px"></FontAwesomeIcon>
             </div>
           </div>
         </div>

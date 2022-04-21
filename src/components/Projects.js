@@ -38,12 +38,17 @@ const Projects = () => {
     ]
   return (
     <div className={styles.projects_section}>
-        <Heading heading="Projects Made with ❤️" ></Heading>
+        <div className={styles.desktop_view}>
+        <Heading heading="Projects Made with ❤️"></Heading>
+        </div>
+        <div className={styles.mobile_view}>
+        <Heading heading="Projects Made with ❤️" styling={{fontSize:"30px"}}></Heading>
+        </div>
         <div className={styles.card_group}>
             {/* Rendering project */}
         {
             project_details.map((project)=>(
-             <Project_Card image={project.image} project_name={project.name} project_link={project.link} github_link={project.github_link}></Project_Card>
+             <Project_Card image={project.image} project_name={project.name} project_link={project.link} github_link={project.github_link} key={project.link}></Project_Card>
             ))
         }
         </div>

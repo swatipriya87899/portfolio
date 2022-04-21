@@ -6,7 +6,7 @@ const Heading = (props) => {
   return (
     <div className={styles.heading_div}>
       <div>
-        <div className={styles.heading} style={props.styles}>{props.heading}</div>
+        <div className={styles.heading} style={props.styling}>{props.heading}</div>
         <div className={styles.hr}>
           <Hr></Hr>
         </div>
