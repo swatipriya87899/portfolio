@@ -1,23 +1,10 @@
 .hero_section {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: absolute;
 }
 
-.navbar {
-  display: flex;
-  margin-left: 40vw;
-  justify-content: space-evenly;
-  position: relative;
-  top: 0px;
-  font-family: "Teko";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 69px;
-  letter-spacing: 0.1em;
-  color: #ffffff;
-}
+
 
 
 .content{
@@ -34,6 +21,49 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 35px;
+}
+
+.waving_hand{
+  display: inline;
+  font-size: 40px;
+  transform: rotate(60deg);
+  animation: waving-hand .5s infinite;
+}
+
+@keyframes waving-hand {
+  /* 0%{
+    transform: rotate(0deg);
+  }
+  10%{
+    transform: rotate(14deg);
+  }
+  20%{
+    transform: rotate(-8deg);
+  }
+  30%{
+    transform: rotate(14deg);
+  }
+  40%{
+    transform: rotate(-4deg);
+  }
+  50%{
+    transform: rotate(10deg);
+  }
+  60%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  } */
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(180deg);
+  }
 }
 
 .name{
@@ -58,14 +88,8 @@ color: #FFFFFF;
 margin-left: 100px;
 }
 
-@media screen and (min-width: 600px) {
-  .hamburgur {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 600px) {
-  .nav_links {
-    display: none;
+  .hero_section {
+    height: 90vh;
   }
 }

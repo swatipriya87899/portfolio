@@ -7,9 +7,20 @@ import TextArea from "./TextArea";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import emailjs from 'emailjs-com';
 
 
 const Contact = () => {
+
+  function sendEmail(e){
+    e.preventDefault();
+    emailjs.sendForm("service_5foxzh6","template_e35orlt",e.target,"uzd-Mqv5HY0qcPmi6")
+    .then(res=>{
+      console.log(res);
+    }).catch(
+      err=> console.log(err)
+    )
+  }
   return (
     <div className={styles.contact}>
       <div className={styles.heading}>
@@ -17,10 +28,12 @@ const Contact = () => {
       </div>
       <div className={styles.contact_form}>
         <div>
-          <Input_Box type="text" placeholder="Your Name"></Input_Box>
-          <Input_Box type="email" placeholder="Your Email"></Input_Box>
-          <TextArea placeholder="Message For Me"></TextArea>
+          <form onSubmit={sendEmail}>
+          <Input_Box type="text" placeholder="Your Name" name="name"></Input_Box>
+          <Input_Box type="email" placeholder="Your Email" name="user_email"></Input_Box>
+          <TextArea name="message" placeholder="Message For Me"></TextArea>
           <Button button_name="Submit"></Button>
+          </form>
         </div>
         <div className={styles.profession_contact}>
           <div className={styles.number}>+91-8789933710</div>

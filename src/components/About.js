@@ -15,11 +15,11 @@ const About = () => {
              <div className={styles.btn_wrapper}>
              <div className={styles.button}>
              <div>
-               <a href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing">
+               <a href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing" target="_blank">
                👁️
                </a>
                </div>
-               <a href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing" download={true}>
+               <a href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing" download={true} target="_blank">
                <div className={styles.download}>Download Resume</div>
                </a>
              </div>

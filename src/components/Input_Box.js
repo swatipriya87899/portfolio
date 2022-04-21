@@ -5,7 +5,7 @@ const Input_Box = (props) => {
     const [input, setInput] = useState();
   return (
     <div>
-        <input type={props.type} className={styles.input} placeholder={props.placeholder} value={input} onChange={(e)=>(setInput(e.target.value))}></input>
+        <input type={props.type} className={styles.input} placeholder={props.placeholder} name={props.name} value={input} onChange={(e)=>(setInput(e.target.value))}></input>
     </div>
   )
 }

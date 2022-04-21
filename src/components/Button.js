@@ -6,7 +6,7 @@ const Button = (props) => {
     <div>
       <div>
         <a href="">
-          <div className={styles.button}>{props.button_name}</div>
+          <button type="submit" className={styles.button}>{props.button_name}</button>
         </a>
       </div>
     </div>

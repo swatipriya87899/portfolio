@@ -3,6 +3,7 @@ import Image from 'next/image'
 import About from '../src/components/About'
 import Contact from '../src/components/Contact'
 import Header from '../src/components/header'
+import Navbar from '../src/components/Navbar'
 import Projects from '../src/components/Projects'
 import Skills from '../src/components/Skills'
 import styles from '../styles/Home.module.css';

@@ -24,13 +24,13 @@ const Project_Card = (props) => {
         >
           {props.project_name}
         </div>
-        <a href={props.github_link}>
+        <a href={props.github_link} target="_blank">
           <div className={styles.github_icon}>
             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </div>
         </a>
       </div>
-      <a href={props.project_link}>
+      <a href={props.project_link} target="_blank">
         <div className={styles.site_button}>Visit Site</div>
       </a>
     </div>

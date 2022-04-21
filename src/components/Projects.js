@@ -15,7 +15,7 @@ const Projects = () => {
             image:"/images/yatra.jpg",
             name:"Yatra",
             link:"https://yatra.netlify.app/",
-            github_link:"https://github.com/swatipriya87899/geekAshram"
+            github_link:"https://github.com/swatipriya87899/Yatra"
         },
         {
             image:"/images/embark_educare.png",
@@ -27,6 +27,12 @@ const Projects = () => {
             image:"/images/ayurveda.png",
             name:"Ayurveda",
             link:"https://ayurveda-sih.netlify.app",
+            github_link:"https://github.com/swatipriya87899/geekAshram"
+        },
+        {
+            image:"/images/comming_soon_page.png",
+            name:"Comming Soon",
+            link:"https://cream-n-layers.netlify.app/",
             github_link:"https://github.com/swatipriya87899/geekAshram"
         }
     ]
