@@ -10,17 +10,13 @@ const Project_Card = (props) => {
       <div style={{ background: "white", margin: "20px", borderRadius: "5px" }}>
         <Image
           src={props.image}
-          width="300px"
-          height="300px"
+          width="250px"
+          height="250px"
           style={{ borderRadius: "5px" }}
         ></Image>
       </div>
       <div className={styles.project_name}>
-        <div
-          style={{
-            fontSize: "24px",
-            fontWeight: "500px",
-          }}
+        <div className={styles.projects_headings}
         >
           {props.project_name}
         </div>

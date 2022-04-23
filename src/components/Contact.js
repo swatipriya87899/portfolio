@@ -9,6 +9,7 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import emailjs from 'emailjs-com';
+import Link from 'next/link'
 
 
 const Contact = () => {
@@ -39,10 +40,14 @@ const Contact = () => {
         <div className={styles.profession_contact}>
           <div className={styles.social_media}>
             <div className={styles.social_media_style}>
+            <a href="https://www.linkedin.com/in/swati-priya-21072002/">
             <FontAwesomeIcon icon={faLinkedinIn} width="25px"></FontAwesomeIcon>
+            </a>
             </div>
             <div className={styles.social_media_style}>
+            <a href="https://github.com/swatipriya87899">
             <FontAwesomeIcon icon={faGithub} width="25px"></FontAwesomeIcon>
+            </a>
             </div>
             <div className={styles.social_media_style}>
             <FontAwesomeIcon icon={faEnvelope} width="25px"></FontAwesomeIcon>

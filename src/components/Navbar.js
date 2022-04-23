@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import styles from "./../../styles/Home_Page/Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";  
 import Hr from "./Hr";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  
+
   //show navebar in mobile view
   const [showNav, setShowNav] = useState(false);
 
@@ -21,9 +23,21 @@ const Navbar = () => {
       display: "flex",
     };
   }
+ 
+  let navWrapper={
+    background: "linear-gradient(to left, #d270f2, #727bff)"
+  }
+  
+  if(!showNav){
+    navWrapper={
+      background: "transparent"
+    }
+  }
+
+
 
   return (
-    <div className={styles.nav_wrapper}>
+    <div className={styles.nav_wrapper} style={navWrapper}>
       <div className={styles.navbar}>
         <div className={styles.nav_links} style={hamburgur_nav}>
           <div className={styles.links} onMouseEnter={()=>setActiveHome(true)} onMouseLeave={()=>setActiveHome(false)}>Home

@@ -1,5 +1,6 @@
 .projects_section{
     margin-top: 70px;
+    padding-top: 30px;
     background-color: 	#F0F0F0;
     padding-bottom: 70px;
 }
@@ -14,11 +15,14 @@
     .desktop_view{
         display: none;
     }
+
   }
 
   @media screen and (min-width: 600px) {
     .mobile_view{
         display: none;
     }
+
+
   }
   

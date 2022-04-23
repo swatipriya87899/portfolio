@@ -53,7 +53,16 @@
   @media screen and (max-width: 600px) {
     .nav_wrapper{
         width: 100%;
-        background-color: #050505;
+        width: 450;
+        height: 550;
+        border-top-right-radius:0;
+        border-top-left-radius:0;
+        border-bottom-right-radius:0;
+        border-bottom-left-radius:100%;
+        background: linear-gradient(to left, #d270f2, #727bff);
+        position: relative;
+        top: 0px;
+
     }
     .nav_links {
       display: none;
@@ -76,3 +85,15 @@
     }
   }
   
+  /* .nav_wrapper{
+      width: 450;
+        height: 450;
+        border-top-right-radius:0;
+        border-top-left-radius:0;
+        border-bottom-right-radius:0;
+        border-bottom-left-radius:100%;
+        background: red;
+        position: relative;
+        top: 0px;
+        z-index: 3;
+  } */

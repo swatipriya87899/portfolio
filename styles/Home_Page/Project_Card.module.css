@@ -26,3 +26,14 @@ background-color:#6F4A8E ;
     margin: 10px 30px;
     margin-top: -20px;
 }
+
+.projects_headings{
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+@media screen and (max-width: 600px) {
+    .projects_headings{
+        font-size: 18px;
+    }
+  }

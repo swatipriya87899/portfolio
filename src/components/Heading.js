@@ -8,7 +8,7 @@ const Heading = (props) => {
       <div>
         <div className={styles.heading} style={props.styling}>{props.heading}</div>
         <div className={styles.hr}>
-          <Hr></Hr>
+          <Hr  width={props.width}></Hr>
         </div>
       </div>
     </div>
