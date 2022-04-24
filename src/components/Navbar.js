@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import styles from "./../../styles/Home_Page/Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";  
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll/modules";
 import Hr from "./Hr";
 
-const Navbar = (props) => {
-  
-
+const Navbar = () => {
   //show navebar in mobile view
   const [showNav, setShowNav] = useState(false);
 
@@ -40,15 +39,21 @@ const Navbar = (props) => {
     <div className={styles.nav_wrapper} style={navWrapper}>
       <div className={styles.navbar}>
         <div className={styles.nav_links} style={hamburgur_nav}>
+          <Link to="hero" spy="true" smooth="true" offset={50} duration={500}>
           <div className={styles.links} onMouseEnter={()=>setActiveHome(true)} onMouseLeave={()=>setActiveHome(false)}>Home
           {activeHome?<div className={styles.activeLink}></div>:""}
           </div>
+          </Link>
+          <Link to="about" spy="true" smooth="true" offset={-40} duration={500}>
           <div className={styles.links} onMouseEnter={()=>setActiveAbout(true)} onMouseLeave={()=>setActiveAbout(false)}>About
           {activeAbout?<div className={styles.activeLink}></div>:""}
           </div>
+          </Link>
+          <Link to="contact" spy="true" smooth="true" offset={50} duration={500}>
           <div className={styles.links} onMouseEnter={()=>setActiveContact(true)} onMouseLeave={()=>setActiveContact(false)}>Contact
           {activeContact?<div className={styles.activeLink}  style={{width:"100%"}}></div>:""}
           </div>
+          </Link>
         </div>
         <div className={styles.hamburgur}>
           {!showNav ? (

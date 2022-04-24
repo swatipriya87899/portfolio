@@ -5,7 +5,7 @@ import Heading from "./Heading";
 import { motion } from "framer-motion";
 
 
-const About = (props) => {
+const About = () => {
   return (
     <motion.div initial="hidden" animate="visible" variants={{
       hidden:{
@@ -16,7 +16,7 @@ const About = (props) => {
       }
     }
   }>
-    <div>
+    <div id="about">
       <div className={styles.mobile_heading}>
          <Heading heading="About Me"></Heading>
       </div>

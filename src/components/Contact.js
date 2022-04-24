@@ -24,7 +24,7 @@ const Contact = () => {
     )
   }
   return (
-    <div className={styles.contact}>
+    <div className={styles.contact} id="contact">
       <div className={styles.heading}>
         <Heading heading="Contact" styling={{color:'#FFF'}}></Heading>
       </div>

@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.home}>
         <Header></Header>
         <div className={styles.content}>
-        <About ></About>
+        <About></About>
        <Projects></Projects>
          <Skills></Skills>
         </div>

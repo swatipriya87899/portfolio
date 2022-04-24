@@ -5,13 +5,13 @@ import Navbar from "./Navbar";
 import Typewriter from 'typewriter-effect';
 
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className={styles.header}>
       <div className={styles.hero_section}>
         <Image src="/images/hero_section.png" layout="fill"></Image>
       </div>
-      <Navbar></Navbar>
+      <Navbar myref={props.myref}></Navbar>
       <div className={styles.content}>
       <div className={styles.waving_hand} style={{transform: "rotate(160deg)"}}>👋</div>
         <div className={styles.greetings}>Hello</div><div  className={styles.greetings}>, I am</div>

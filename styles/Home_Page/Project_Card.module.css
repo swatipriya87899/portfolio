@@ -18,18 +18,20 @@ background-color:#6F4A8E ;
 
 .github_icon{
     width: 25px;
+    margin-right: 40px;
 }
 
 .project_name{
     display: flex;
     justify-content: space-between;
-    margin: 10px 30px;
-    margin-top: -20px;
+    /* margin: 10px 30px;
+    margin-top: -20px; */
 }
 
 .projects_headings{
     font-size: 24px;
     font-weight: 400px;
+    margin-left: 40px;
 }
 
 @media screen and (max-width: 600px) {

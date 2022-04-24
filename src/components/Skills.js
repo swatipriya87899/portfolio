@@ -3,6 +3,7 @@ import styles from "./../../styles/Home_Page/Skills.module.css";
 import Heading from "./Heading";
 import Image from "next/image";
 import Progress_Bar from "./Progress_Bar";
+import { motion } from "framer-motion"
 
 const Skills = () => {
   //skill with progress
@@ -49,6 +50,9 @@ const Skills = () => {
     },
   ];
   return (
+    <motion.ul
+   
+  >
     <div className={styles.skills}>
       <div className={styles.web_development}>
         <div className={styles.skill_heading}>
@@ -103,6 +107,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    </motion.ul>
   );
 };
 

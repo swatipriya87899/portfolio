@@ -12,6 +12,12 @@ const Projects = () => {
             github_link:"https://github.com/swatipriya87899/geekAshram"
         },
         {
+            image:"/images/portfolio.png",
+            name: "Portfolio",
+            link: "http://swati-priya.me/",
+            github_link:"https://github.com/swatipriya87899/portfolio"
+        },
+        {
             image:"/images/yatra.jpg",
             name:"Yatra",
             link:"https://yatra.netlify.app/",
@@ -21,7 +27,7 @@ const Projects = () => {
             image:"/images/embark_educare.png",
             name:"Embark Educare",
             link:"https://embarkeducare.com/",
-            github_link:"https://github.com/swatipriya87899/geekAshram"
+            github_link:""
         },
         {
             image:"/images/ayurveda.png",
