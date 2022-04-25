@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./../../styles/Home_Page/About.module.css";
 import Heading from "./Heading";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 
 const About = () => {
@@ -24,7 +25,7 @@ const About = () => {
         <Image
           src="/images/profile_photo.png"
           width="300px"
-          height="300px"
+          height="300px" alt="my_image"
         ></Image>
         <div className={styles.about_contant}>
         <div className={styles.desktop_heading}>
@@ -36,18 +37,21 @@ const About = () => {
           <div className={styles.btn_wrapper}>
             <div className={styles.button}>
               <div>
+                <Link  href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing">
                 <a
-                  href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing"
                   target="_blank"
                 >
                   👁️
                 </a>
+                </Link>
               </div>
-              {/* <a
-                href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing"
-                download> */}
+              <Link href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing">
+              <a
+              target="_blank"
+                download>
                 <div className={styles.download }>Download Resume</div>
-              {/* </a> */}
+              </a>
+              </Link>
             </div>
           </div>
         </div>

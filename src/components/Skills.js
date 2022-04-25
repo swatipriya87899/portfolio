@@ -64,7 +64,7 @@ const Skills = () => {
             <Image
               src="/images/web_dev_skills.png"
               width="400px"
-              height="300px"
+              height="300px" alt="dev_skills"
             ></Image>
           </div>
           <div className={styles.content}>
@@ -85,7 +85,7 @@ const Skills = () => {
           <Image
             src="/images/programming_skills.png"
             width="400px"
-            height="300px"
+            height="300px" alt="programming_skill"
           ></Image>
         </div>
         <div className={styles.content} style={{marginBottom:"30px"}}>
@@ -102,7 +102,7 @@ const Skills = () => {
           <Image
             src="/images/programming_skills.png"
             width="400px"
-            height="300px"
+            height="300px" alt="programming_skill"
           ></Image>
         </div>
       </div>

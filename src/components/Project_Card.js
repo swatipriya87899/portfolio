@@ -4,6 +4,7 @@ import styles from "./../../styles/Home_Page/Project_Card.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion"
+import Link from "next/link";
 
 const Project_Card = (props) => {
   return (
@@ -18,7 +19,7 @@ const Project_Card = (props) => {
           src={props.image}
           width="250px"
           height="250px"
-          style={{ borderRadius: "5px" }}
+          style={{ borderRadius: "5px" }} alt="project_image"
         ></Image>
          </motion.button>
       </div>
@@ -27,15 +28,19 @@ const Project_Card = (props) => {
         >
           {props.project_name}
         </div>
-        <a href={props.github_link} target="_blank">
+        <Link href={props.github_link} >
+        <a target="_blank">
           <div className={styles.github_icon}>
             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </div>
         </a>
+        </Link>
       </div>
-      <a href={props.project_link} target="_blank">
+      <Link  href={props.project_link}>
+      <a target="_blank" >
         <div className={styles.site_button}>Visit Site</div>
       </a>
+      </Link>
     </div>
   );
 };

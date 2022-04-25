@@ -9,7 +9,7 @@ const Header = (props) => {
   return (
     <div className={styles.header}>
       <div className={styles.hero_section}>
-        <Image src="/images/hero_section.png" layout="fill"></Image>
+        <Image src="/images/hero_section.png" layout="fill" alt="hero_image"></Image>
       </div>
       <Navbar myref={props.myref}></Navbar>
       <div className={styles.content}>
