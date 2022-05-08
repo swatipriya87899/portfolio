@@ -44,6 +44,6 @@
 
 @media screen and (max-width: 600px) {
   .message{
-    margin: auto;
+    padding-left: 20px;
   }
 }

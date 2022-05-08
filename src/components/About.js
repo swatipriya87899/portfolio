@@ -37,7 +37,7 @@ const About = () => {
           <div className={styles.btn_wrapper}>
             <div className={styles.button}>
               <div>
-                <Link  href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing">
+                <Link  href="/Resume.pdf">
                 <a
                   target="_blank"
                 >
@@ -45,7 +45,7 @@ const About = () => {
                 </a>
                 </Link>
               </div>
-              <Link href="https://drive.google.com/file/d/1EnTBU9_7dsMbUOSUWbm3gDK1pw-62i0H/view?usp=sharing">
+              <Link  href="/Resume.pdf">
               <a
               target="_blank"
                 download>

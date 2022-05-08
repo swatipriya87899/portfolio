@@ -50,8 +50,9 @@ const Contact = () => {
             </a>
             </div>
             <div className={styles.social_media_style}>
+            <a href="mailto:swatipriya87899@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} width="25px"></FontAwesomeIcon>
-            </div>
+            </a>            </div>
           </div>
         </div>
       </div>
