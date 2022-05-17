@@ -8,7 +8,7 @@ const Projects = () => {
         {
             image:"/images/geekashram.png",
             name: "geekAshram",
-            link: "https://geekashram.org/",
+            link: "https://geekashram.netlify.app/",
             github_link:"https://github.com/swatipriya87899/geekAshram"
         },
         {
