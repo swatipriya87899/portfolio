@@ -17,6 +17,13 @@ const Projects = () => {
             link: "http://swati-priya.me/",
             github_link:"https://github.com/swatipriya87899/portfolio"
         },
+        ,
+        {
+            image:"/images/spacex.png",
+            name:"SpaceX",
+            link:"https://spacex-blond.vercel.app/",
+            github_link:"https://github.com/swatipriya87899/spacex"
+        },
         {
             image:"/images/yatra.jpg",
             name:"Yatra",
@@ -28,12 +35,6 @@ const Projects = () => {
             name:"Embark Educare",
             link:"https://embarkeducare.com/",
             github_link:""
-        },
-        {
-            image:"/images/ayurveda.png",
-            name:"Ayurveda",
-            link:"https://ayurveda-sih.netlify.app",
-            github_link:"https://github.com/swatipriya87899/geekAshram"
         },
         {
             image:"/images/comming_soon_page.png",

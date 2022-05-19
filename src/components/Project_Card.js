@@ -17,8 +17,8 @@ const Project_Card = (props) => {
   >
         <Image
           src={props.image}
-          width="250px"
-          height="250px"
+          width="280px"
+          height="230px"
           style={{ borderRadius: "5px" }} alt="project_image"
         ></Image>
          </motion.button>
