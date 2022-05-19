@@ -40,7 +40,7 @@ const Projects = () => {
             image:"/images/comming_soon_page.png",
             name:"Comming Soon",
             link:"https://cream-n-layers.netlify.app/",
-            github_link:"https://github.com/swatipriya87899/geekAshram"
+            github_link:""
         }
     ]
   return (
