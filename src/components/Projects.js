@@ -19,6 +19,12 @@ const Projects = () => {
         },
         ,
         {
+            image:"/images/fakeshop.png",
+            name:"SkopKaro",
+            link:"https://shop-kro-gules.vercel.app/",
+            github_link:"https://github.com/swatipriya87899/ShopKro"
+        },
+        {
             image:"/images/spacex.png",
             name:"SpaceX",
             link:"https://spacex-blond.vercel.app/",
