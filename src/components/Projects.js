@@ -2,6 +2,7 @@ import React from 'react'
 import Heading from './Heading';
 import styles from './../../styles/Home_Page/Projects.module.css';
 import Project_Card from './Project_Card';
+import Button from './Button';
 
 const Projects = () => {
     const project_details=[
@@ -23,6 +24,12 @@ const Projects = () => {
             name:"SkopKaro",
             link:"https://shop-kro-gules.vercel.app/",
             github_link:"https://github.com/swatipriya87899/ShopKro"
+        },
+        {
+            image:"/images/fitrakho.png",
+            name:"FitRakho",
+            link:"https://fit-rakho.vercel.app/",
+            github_link:"https://github.com/swatipriya87899/FitRakho"
         },
         {
             image:"/images/spacex.png",
