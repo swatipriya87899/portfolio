@@ -18,6 +18,12 @@ const Projects = () => {
             link: "http://swati-priya.me/",
             github_link:"https://github.com/swatipriya87899/portfolio"
         },
+        {
+            image:"/images/redux-todo.png",
+            name: "Add Note",
+            link: "https://redux-todo-mauve.vercel.app",
+            github_link:"https://github.com/swatipriya87899/redux-todo"
+        },
         ,
         {
             image:"/images/fakeshop.png",
