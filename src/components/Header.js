@@ -17,7 +17,7 @@ const Header = (props) => {
         <div className={styles.greetings}>Hello</div><div  className={styles.greetings}>, I am</div>
         <div className={styles.name}>Swati Priya</div>
         <div className={styles.role}>
-        <Typewriter options={{strings: ['Frontend Developer', 'Competative Programmer'], autoStart: true, loop: true,}}/>
+        <Typewriter options={{strings: ['Frontend Developer', 'Competative Programmer', 'Mentor'], autoStart: true, loop: true,}}/>
         </div>
       </div>
     </div>
