@@ -42,7 +42,7 @@ const About = () => {
                 I Love to explore different tech stacks. I am Passionate about
                 Coding with excellent problem-solving skills.
                 <div style={{marginTop:'20px'}}><b>Product to be:</b></div>
-                <div style={{fontSize:'18px'}}>1. Smart India Hackathon'22 Winner</div>
+                <div style={{fontSize:'18px'}}>1. Smart India Hackathon&#39;22 Winner</div>
                 <div style={{fontSize:'18px'}}>2. Google Developer Student Club(Co-Lead)</div>
               </div>
             </div>

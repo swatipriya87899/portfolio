@@ -28,7 +28,7 @@ const Skills = () => {
             <div className={styles.skills_heading_for_desktop}>Web & App Development</div>
             <div>
               <ul className={styles.problem_solving}>
-                <li>✔️ SIH Winner'22 (Create App & Web)</li>
+                <li>✔️ SIH Winner&#39;22 (Create App & Web)</li>
                 <li>✔️ Provide Mentorship</li>
                 <li>✔️ Frontend Developer Intership</li>
                 <li>✔️ MERN DONE</li>
