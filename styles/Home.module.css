@@ -8,6 +8,7 @@
   margin-top: 100vh;
 }
 
+
 @media screen and (max-width: 600px) {
   .content{
     margin-top: 85vh;

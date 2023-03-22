@@ -54,7 +54,7 @@ const Skills = () => {
               <li>✔️ Provide Mentorship</li>
               {/* <li>✔️ 2.5⭐ on Leetcode</li>
               <li>✔️ 2⭐ on CodeChef</li> */}
-              <li>✔️ Solved 400+ problems on Leetcode and GFG</li>
+              <li>✔️ Solved 500+ problems on Leetcode and GFG</li>
             </ul>
           </div>
         </div>

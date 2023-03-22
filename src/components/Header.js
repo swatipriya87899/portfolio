@@ -8,8 +8,8 @@ import Typewriter from 'typewriter-effect';
 const Header = (props) => {
   return (
     <div className={styles.header}>
-      <div className={styles.hero_section}>
-        <Image src="/images/hero_section.png" layout="fill" alt="hero_image"></Image>
+      <div className={styles.hero_section} style={{background: '#6F4A8E'}}>
+        <Image src="/images/hero_section_img.png" layout="fill" alt="hero_image" style={{opacity:0.3}}></Image>
       </div>
       <Navbar myref={props.myref}></Navbar>
       <div className={styles.content}>

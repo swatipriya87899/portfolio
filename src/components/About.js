@@ -26,8 +26,8 @@ const About = () => {
         <div className={styles.about}>
           <Image
             src="/images/profile_photo.png"
-            width="300px"
-            height="300px"
+            width="350px"
+            height="150px"
             alt="my_image"
           ></Image>
           <div className={styles.about_contant}>
@@ -36,14 +36,23 @@ const About = () => {
             </div>
             <div className={styles.contant}>
               <div>
-                <div style={{ marginLeft: "15px" }}>
-                  👋 Hey! Just call me Technophile.{" "}
+                <div style={{ marginLeft: "15px", textAlign: "center" }}>
+                  👋 Hey! Just call me Technophile.👩‍💻{" "}
                 </div>
-                I Love to explore different tech stacks. I am Passionate about
-                Coding with excellent problem-solving skills.
-                <div style={{marginTop:'20px'}}><b>Product to be:</b></div>
-                <div style={{fontSize:'18px'}}>1. Smart India Hackathon&#39;22 Winner</div>
-                <div style={{fontSize:'18px'}}>2. Google Developer Student Club(Co-Lead)</div>
+                I Love to explore different tech stacks. I am passionate about
+                Coding with excellent problem-solving skills. I always stay
+                curious and believe in continuous learning and improving skills.
+                I am willing to adapt to new technologies and trends.
+                <div>
+                  Other than technology, I love❤️ to spend time with books📚 and
+                  also love to listen to audiobooks🔊 Some of my favourite books
+                  are "
+                  <span style={{ fontWeight: "bold" }}>
+                    🤔Think and Grow Rich🤑
+                  </span>
+                  ", "<span style={{fontWeight:"bold"}}>The Secret🤫</span>" and "<span style={{fontWeight:"bold"}}>The Law of attraction📄✍</span>".
+                </div>
+               
               </div>
             </div>
             <div className={styles.btn_wrapper}>
